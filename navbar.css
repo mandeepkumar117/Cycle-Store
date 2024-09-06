@@ -1,0 +1,31 @@
+ #hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+   #hero div{
+        margin: 40px;
+        font-size: 20px;
+    }
+    #icon{
+        display: none;
+    }
+
+
+    @media screen and (max-width:320px) {
+        #hero{
+           margin-left: -400px;
+           display: block;
+        }  
+        #icon{
+            display: block;
+        }  
+        
+        
+        #input1:checked~#hero{
+            margin-left: 0px;
+            transition: margin-left 1s;
+
+        }
+    }

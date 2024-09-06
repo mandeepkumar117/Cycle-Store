@@ -1,0 +1,686 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+* {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-hero {
+  background-image: url("https://skins.minimog.co/cdn/shop/files/bike_hero.png?v=1659670032&width=1500");
+  height: 100vh;
+  width: 100%;
+}
+
+#nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  overflow-x: hidden;
+  font-size: 25px;
+  background-color: rgb(60, 88, 88);
+}
+@media screen and (max-width: 1440px) {
+  #nav {
+    font-size: 40px;
+    color: white;
+  }
+}
+@media screen and (max-width: 1025px) {
+  #nav {
+    font-size: 25px;
+    color: white;
+  }
+}
+@media screen and (max-width: 769px) {
+  #nav {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #nav {
+    font-size: 11px;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 376px) {
+  #nav {
+    font-size: 9px;
+    color: white;
+  }
+}
+@media screen and (max-width: 321px) {
+  #nav {
+    font-size: 7px !important;
+  }
+}
+
+#label1 {
+  overflow-x: hidden;
+  position: absolute;
+  right: 25px;
+  color: wheat;
+  top: 25px;
+  margin-right: 0px;
+  font-size: 25px;
+}
+@media screen and (max-width: 1440px) {
+  #label1 {
+    font-size: 50px;
+    top: 20px;
+    color: white;
+  }
+}
+@media screen and (max-width: 1025px) {
+  #label1 {
+    font-size: 30px;
+    top: 22px;
+    color: white;
+  }
+}
+@media screen and (max-width: 769px) {
+  #label1 {
+    top: 22px;
+    margin-right: 5px;
+    font-size: 20px;
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 426px) {
+  #label1 {
+    top: 13px;
+    margin-right: 5px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 376px) {
+  #label1 {
+    font-size: 15px !important;
+    top: 14px !important;
+    color: white;
+  }
+}
+@media screen and (max-width: 320px) {
+  #label1 {
+    font-size: 15px !important;
+    top: 12px !important;
+    margin-right: 1px;
+  }
+}
+
+#input1:checked ~ #nav {
+  display: none;
+}
+
+#input1:checked ~ #label1 {
+  display: none;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+@media screen and (max-width: 769px) {
+  #header {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #header {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 376px) {
+  #header {
+    font-size: 20px;
+  }
+}
+
+#iconic {
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 426px) {
+  #hero {
+    display: none;
+  }
+}
+#bars:target {
+  display: flex;
+}
+
+#bars {
+  margin-left: 9px;
+  padding-left: 10px;
+  display: none;
+  flex-direction: column;
+  width: 30vw;
+  height: 50vh;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  background-color: black;
+}
+#bars a i {
+  color: white;
+  font-size: 24px;
+}
+#bars div a {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  color: Red;
+}
+
+#nav1 {
+  overflow-x: hidden;
+  margin-right: 100px;
+}
+#nav1 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5px !important;
+}
+#nav1 ul li ul li {
+  margin-left: 0px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+@media screen and (max-width: 1441px) {
+  #nav1 ul li ul li {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 1026px) {
+  #nav1 ul li ul li {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #nav1 ul li ul li {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #nav1 ul li ul li {
+    display: none;
+  }
+}
+@media screen and (max-width: 376px) {
+  #nav1 ul li ul li {
+    display: none;
+  }
+}
+@media screen and (max-width: 321px) {
+  #nav1 ul li ul li {
+    display: none;
+  }
+}
+#nav1 ul li {
+  font-size: 20px;
+}
+@media screen and (max-width: 1440px) {
+  #nav1 ul li {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1026px) {
+  #nav1 ul li {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 769px) {
+  #nav1 ul li {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #nav1 ul li {
+    display: none;
+  }
+}
+@media screen and (max-width: 376px) {
+  #nav1 ul li {
+    display: none;
+  }
+}
+@media screen and (max-width: 321px) {
+  #nav1 ul li {
+    display: none;
+  }
+}
+
+#nav2 {
+  overflow-x: hidden;
+}
+#nav2 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: left;
+}
+#nav2 ul li ul {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  width: 200px;
+  font-size: 20px;
+}
+@media screen and (max-width: 1026px) {
+  #nav2 ul li ul {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 769px) {
+  #nav2 ul li ul {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #nav2 ul li ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 376px) {
+  #nav2 ul li ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 321px) {
+  #nav2 ul li ul {
+    display: none;
+  }
+}
+#nav2 ul li ul li input {
+  border: none;
+  outline: none;
+}
+
+#hero {
+  overflow-x: hidden;
+  margin-bottom: 0px;
+}
+#hero ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -10px !important;
+}
+#hero ul li ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 25px;
+}
+@media screen and (max-width: 1440px) {
+  #hero ul li ul {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1026px) {
+  #hero ul li ul {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 769px) {
+  #hero ul li ul {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 376px) {
+  #hero ul li ul {
+    font-size: 35px;
+  }
+}
+#hero ul li ul li {
+  margin: 20px;
+}
+@media screen and (max-width: 426px) {
+  #hero {
+    font-size: 35px;
+    display: none;
+  }
+}
+
+#img {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100vh;
+}
+@media screen and (max-width: 769px) {
+  #img {
+    width: 768px;
+    height: 50vh;
+  }
+}
+
+#philosophy {
+  font-size: 30px;
+}
+@media screen and (max-width: 1026px) {
+  #philosophy {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 769px) {
+  #philosophy {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #philosophy {
+    display: none;
+  }
+}
+
+#product {
+  overflow-x: hidden;
+  padding: 20px;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100vh;
+  margin: opx;
+  border: none;
+}
+#product #Cyling {
+  font-size: 30px;
+}
+@media screen and (max-width: 1026px) {
+  #product #Cyling {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 769px) {
+  #product #Cyling {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #product #Cyling {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 376px) {
+  #product #Cyling {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 321px) {
+  #product #Cyling {
+    font-size: 20px;
+  }
+}
+
+#shopnow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+#shopnow a {
+  text-decoration: none;
+  margin-top: 50px;
+  color: white;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  background-color: rgb(171, 59, 59);
+  border-radius: 30px;
+}
+
+#container {
+  overflow-x: hidden;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+@media screen and (max-width: 1026px) {
+  #container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 769px) {
+  #container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    font-size: 70%;
+    font: 40px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #container {
+    display: inline;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 321px) {
+  #container {
+    display: inline;
+    justify-content: center;
+    font: 40px;
+  }
+}
+
+#container2 {
+  overflow-x: hidden;
+}
+#container2 div #child {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+@media screen and (max-width: 376px) {
+  #container2 div #child {
+    font-size: 10px;
+  }
+}
+#container2 #child1 {
+  padding: 30px;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+@media screen and (max-width: 769px) {
+  #container2 #child1 {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 426px) {
+  #container2 #child1 {
+    grid-template-columns: auto;
+  }
+}
+
+#container2 div #child div:hover {
+  scale: 1.1;
+  transition: scale 1s;
+  background-color: white;
+  color: blue;
+  background-color: red;
+  cursor: pointer;
+}
+#container2 #child1 div:hover {
+  scale: 1.1;
+  transition: scale 1s;
+}
+
+#container3 {
+  overflow-x: hidden;
+  background-color: white;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 769px) {
+  #container3 {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media screen and (max-width: 426px) {
+  #container3 {
+    display: grid;
+    grid-template-columns: auto;
+    width: 300px;
+    height: 200px;
+  }
+}
+#container3 #story {
+  margin-top: 100px;
+  margin-left: 90px;
+}
+@media screen and (max-width: 426px) {
+  #container3 #story {
+    font-size: 10px;
+    margin-left: 180px !important;
+  }
+}
+#container3 #story div button {
+  background-color: red;
+  width: 150px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+@media screen and (max-width: 426px) {
+  #container3 #story div button {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+  }
+}
+
+#container4 {
+  overflow-x: hidden;
+  padding: 30px;
+  background-color: white;
+}
+#container4 #shop {
+  padding: 40px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 769px) {
+  #container4 #shop {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #container4 #shop {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+#container5 {
+  overflow-x: hidden;
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(56, 101, 101);
+  padding: 10px;
+}
+@media screen and (max-width: 426px) {
+  #container5 {
+    font-size: 10px;
+  }
+}
+#container5 #mail div {
+  padding: 10px;
+  box-sizing: border-box;
+}
+#container5 #mail div input {
+  border-radius: 10px;
+  width: 500px;
+  height: 50px;
+}
+@media screen and (max-width: 426px) {
+  #container5 #mail div input {
+    width: 300px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 376px) {
+  #container5 #mail div input {
+    width: 250px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 321px) {
+  #container5 #mail div input {
+    width: 200px;
+    height: 50px;
+  }
+}
+#container5 #check input {
+  font-size: 50px;
+}
+
+#container6 {
+  overflow-x: hidden;
+  background-color: rgb(253, 252, 247);
+  padding: 40px;
+}
+#container6 #footer {
+  display: flex;
+  justify-content: space-between;
+}
+#container6 #footer a {
+  color: black;
+}
+@media screen and (max-width: 1026px) {
+  #container6 #footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 769px) {
+  #container6 #footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #container6 #footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 376px) {
+  #container6 #footer {
+    display: grid;
+    grid-template-columns: auto;
+    font-size: 20px;
+  }
+}
+#container6 #footer div img {
+  width: 100px;
+}
+
+/*# sourceMappingURL=multipage.css.map */
